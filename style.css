@@ -1,0 +1,59 @@
+body {
+    background-color: #f0f2f5; /* Facebook background color */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    border: 1px solid #ddd; /* Light gray border */
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    
+}
+
+.screen {
+    background-color: #f0f2f5; /* Facebook background color */
+    border-radius: 8px;
+    margin-bottom: 12px;
+    height: 60px;
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* Button styling */
+.num, .op, .solve, .clear {
+    font-size: 16px;
+    margin: 6px;
+    width: 48px;
+    height: 48px;
+    background-color: #4267B2; /* Facebook blue */
+    color: #fff; /* White text */
+    border: 1px solid #29487d; /* Darker blue border */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.num:hover, .op:hover, .solve:hover, .clear:hover {
+    background-color: #365899; /* Darker blue on hover */
+}
